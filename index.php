@@ -3,7 +3,6 @@
 exec('rm category.tsv');
 
 $fp = fopen('category.tsv', 'w');
-$argv;
 seek($fp);
 fclose($fp);
 
